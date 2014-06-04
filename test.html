@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Camilo Navarrete</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Le styles -->
+	<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+	<style type="text/css">
+		body { 
+			padding-top: 60px; 
+			/*padding-bottom: 40px; */
+		}
+	</style>
+	<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le fav and touch icons -->
+	<link rel="shortcut icon" href="http://twitter.github.com/bootstrap/assets/images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://twitter.github.com/bootstrap/assets/images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://twitter.github.com/bootstrap/assets/images/apple-touch-icon-114x114.png">
+</head>
+<body>
+
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<a class="brand" href="#">Project name</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>						
+						<li class="divider-vertical"></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown">
+								Desplegable
+								<b class="caret"></b> 
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Submenú</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+				<div class="container">
+					<form class="form-search">
+					<label for="buscar">Buscar</label>
+					<input type="text" name="" value="" placeholder="" class="search-query">
+					<input type="button" class="btn" value="buscar">
+				</form>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<!-- Main hero unit for a primary marketing message or call to action -->
+		
+		<div id="myCarousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="item">
+					<div class="container">
+						<ul class="thumbnails">
+							<li class="span3 offset3">
+								<a class="thumbnail" data-toggle="modal" href="#myModal">
+									<img src="http://placehold.it/360x240" alt="">
+								</a>
+								<h3>Basic marketing site</h3>
+								<p>Featuring a hero unit for a primary message and three supporting elements.</p>
+							</li>
+							<li class="span3">
+								<a class="thumbnail" href="#">
+									<img src="http://placehold.it/360x240" alt="">
+								</a>
+								<h3>Fluid layout</h3>
+								<p>Uses our new responsive, fluid grid system to create seamless liquid layout.</p>
+							</li>
+							<li class="span3">
+								<a class="thumbnail" href="#">
+									<img src="http://placehold.it/360x240" alt="">
+								</a>
+								<h3>Starter template</h3>
+								<p>A barebones HTML document with all the Bootstrap CSS and javascript included.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="item">
+					<ul class="thumbnails">
+						<li class="span3">
+							<a class="thumbnail" data-toggle="modal" href="#myModal">
+								<img src="http://placehold.it/360x240" alt="">
+							</a>
+							<h3>Basic marketing site</h3>
+							<p>Featuring a hero unit for a primary message and three supporting elements.</p>
+						</li>
+						<li class="span3">
+							<a class="thumbnail" href="#">
+								<img src="http://placehold.it/360x240" alt="">
+							</a>
+							<h3>Fluid layout</h3>
+							<p>Uses our new responsive, fluid grid system to create seamless liquid layout.</p>
+						</li>
+						<li class="span3">
+							<a class="thumbnail" href="#">
+								<img src="http://placehold.it/360x240" alt="">
+							</a>
+							<h3>Starter template</h3>
+							<p>A barebones HTML document with all the Bootstrap CSS and javascript included.</p>
+						</li>
+					</ul>
+				</div>
+				<div class="item active">
+					<img src="http://twitter.github.com/bootstrap/assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+					<div class="carousel-caption">
+						<h4>Third Thumbnail label</h4>
+						<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+		</div>
+		<!-- Example row of columns -->
+		<div class="row">
+			<div class="span4">
+				<h2>Heading</h2>
+				<p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				<p><a class="btn" href="#">View details &raquo;</a></p>
+			</div>
+			<div class="span4">
+				<h2>Heading</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+				<p><a class="btn" href="#">View details &raquo;</a></p>
+			</div>
+			<div class="span4">
+				<h2>Heading</h2>
+				<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+				<p><a class="btn" href="#">View details &raquo;</a></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span12">
+
+				<ul class="thumbnails">
+					<li class="span4">
+						<a class="thumbnail" data-toggle="modal" href="#myModal">
+							<img src="http://placehold.it/360x240" alt="">
+						</a>
+						<h3>Basic marketing site</h3>
+						<p>Featuring a hero unit for a primary message and three supporting elements.</p>
+					</li>
+					<li class="span4">
+						<a class="thumbnail" data-toggle="modal" href="#myModal2">
+							<img src="http://placehold.it/360x240" alt="">
+						</a>
+						<h3>Fluid layout</h3>
+						<p>Uses our new responsive, fluid grid system to create seamless liquid layout.</p>
+					</li>
+					<li class="span4">
+						 <div class="accordion" id="accordion">
+						 	<div class="accordion-group">
+						 		<div class="accordion-heading">
+						 			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+						 				Collapsible Group Item #1
+						 			</a>
+						 		</div>
+						 		<div id="collapseOne" class="accordion-body collapse in">
+						 			<div class="accordion-inner">
+						 				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						 			</div>
+						 		</div>
+						 	</div>
+						 	<div class="accordion-group">
+						 		<div class="accordion-heading">
+						 			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+						 				Collapsible Group Item #2
+						 			</a>
+						 		</div>
+						 		<div id="collapseTwo" class="accordion-body collapse">
+						 			<div class="accordion-inner">
+						 				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						 			</div>
+						 		</div>
+						 	</div>
+						 	<div class="accordion-group">
+						 		<div class="accordion-heading">
+						 			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+						 				Collapsible Group Item #3
+						 			</a>
+						 		</div>
+						 		<div id="collapseThree" class="accordion-body collapse">
+						 			<div class="accordion-inner">
+						 				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						 			</div>
+						 		</div>
+						 	</div>
+						 </div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+		
+		<div class="modal" id="myModal" style="display:none;">
+			<div class="modal-header">
+				<a class="close" data-dismiss="modal">&times;</a>
+				<h3>Modal header</h3>
+			</div>
+			<div class="modal-body">
+				<p>One fine body…</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#" class="btn btn-primary">Save changes</a>
+				<a href="#" class="btn">Close</a>
+			</div>
+		</div>
+
+		<div class="modal" id="myModal2" style="display:none;">
+			<div class="modal-header">
+				<a class="close" data-dismiss="modal">&times;</a>
+				<h3>Modal header2</h3>
+			</div>
+			<div class="modal-body">
+				<p>One fine body2…</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#" class="btn btn-primary">Save changes</a>
+				<a href="#" class="btn">Close</a>
+			</div>
+		</div>
+
+
+	  	<hr>
+
+		<footer>
+			<p>&copy; Company 2012</p>
+		</footer>
+
+				
+	</div> <!-- /container -->
+<div class="navbar navbar-static-bottom">
+	<div class="navbar-inner">
+		<div class="">
+			<h2>Este es mi footer</h2>
+		</div>
+	</div>			
+</div>
+	<!-- Le javascript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-transition.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-alert.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-modal.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-dropdown.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-scrollspy.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-tab.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-tooltip.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-popover.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-button.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-collapse.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-carousel.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-typeahead.js"></script>
+	<script type="text/javascript">
+		$(".dropdown-toggle").dropdown();
+	</script>
+</body>
+</html>
+</body>
+</html>

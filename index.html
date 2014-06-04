@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Página Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script type="text/javascript" serc="js/bootstrap.js"></script>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-transition.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-alert.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-modal.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-dropdown.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-scrollspy.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-tab.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-tooltip.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-popover.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-button.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-collapse.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-carousel.js"></script>
+	<script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-typeahead.js"></script>
+</head>
+<body>
+	
+<h2>Scaffolding</h2>
+	<!-- Columnas anidadas -->
+	<div class="row">
+		<div class="span12">
+			<p class="color_fondo">Padre</p>
+			<div class="row">
+				<div class="span4"><p class="color_fondo">hijo1</p></div>
+				<div class="span4"><p class="color_fondo">hijo2</p></div>
+				<div class="span4"><p class="color_fondo">hijo2</p></div>
+			</div>
+			
+		</div> 
+	</div>
+	<!-- FIN Columnas anidadas -->
+	
+	<!-- Columnas fluidas (se pasa de px a %) -->
+	<div class="row-fluid">
+		<div class="span4">
+			<p class="color_fondo">span4</p>
+		</div>
+		<div class="span8">
+			<p class="color_fondo">span8</p>
+		</div>
+	</div>
+	<!-- FIN Columnas fluidas -->
+
+	<!-- Columnas de compensación fluidas (se pasa de px a %) -->
+	<div class="row-fluid">
+		<div class="span4">
+			<p class="color_fondo">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+		</div>
+		<div class="span4 offset4"><!-- Aumenta espacio hacia la izqueirda-->
+			<p class="color_fondo">span4</p>
+		</div>
+	</div>
+	<!-- FIN Columnas de compensación fluidas -->
+
+	<!-- Anidación fluida -->
+	<div class="row-fluid">
+		<div class="span12">
+			<p class="color_fondo">Padre</p>
+			<div class="row-fluid">
+				<div class="span6"><p class="color_fondo">Hijo1</p></div>
+				<div class="span6"><p class="color_fondo">Hijo2</p></div>
+			</div>
+		</div>
+	</div>
+	<!-- FIN Anidación fluida -->
+
+	
+
+	<!-- Plantilla fluida, por defecto 940px-->
+	<div class="container">
+		<div class="row">
+			<div class="span4"><p class="color_fondo">Dentro de un container</p></div>
+			<div class="span4"><p class="color_fondo">Dentro de un container</p></div>
+			<div class="span4"><p class="color_fondo">Dentro de un container</p></div>
+		</div>
+	</div>
+	<!-- FIN Plantilla fluida, por defecto 940px-->
+
+	
+
+	<!-- Plantilla fluida -->
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span4"><p class="color_fondo">Dentro de un container fluido</p></div>
+			<div class="span4"><p class="color_fondo">Dentro de un container fluido</p></div>
+			<div class="span4"><p class="color_fondo lead">Dentro de un container fluido</p></div>
+		</div>
+	</div>
+	<!-- FIN Plantilla fluida -->
+
+<h2>BASE CSS</h2>
+
+	<div class="container">
+		<code>Hola soy tu código</code>
+	</div>
+	<div class="container">
+		<pre class="pre-scrollable">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</pre>
+	</div>
+
+
+	<div class="container">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<!-- Tabla estilo CEBRA -->
+	<div class="container">
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!-- FIN Tabla estilo CEBRA -->
+
+	<!-- Tabla estilo Bordeada -->
+	<div class="container">
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!-- FIN Tabla estilo Bordeada -->
+
+	<!-- Tabla estilo HOVER -->
+	<div class="container">
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!-- FIN Tabla estilo HOVER -->
+
+	<!-- Tabla estilo Más estilos -->
+	<div class="container">
+		<table class="table table-hover table-bordered">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Nombre</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="info">
+					<td>1</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+				<tr class="success">
+					<td>2</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+				<tr class="error">
+					<td>3</td>
+					<td>Camilo Navarrete</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!-- FIN Tabla estilo Más estilos -->
+
+
+
+	<!-- Formulario por defecto (Vertical)-->
+	<div class="container">
+		<form name="formulario" action="#" method="POST" id="" class="form">
+			<label for="nombre">Nombre</label>
+			<input type="text" name="nombre" value="nombre">
+			<label for="apellido">Apellido</label>
+			<input type="text" name="apellido" value="apellido">
+		</form>
+	</div>	
+	<!-- FIN Formulario por defecto -->
+
+	<!-- Formulario de Busqueda-->
+	<div class="container">
+		<form name="formulario" action="#" method="POST" class="form-search">
+			<label for="buscar">Que busca?</label>
+			<input type="text" name="busca" class="search-query">
+			<input type="submit" value="Buscar" class="btn">
+		</form>
+	</div>	
+	<!-- FIN Formulario de Busqueda -->
+
+	<!-- Formulario en linea -->
+	<div class="container">
+		<form name="formulario" action="#" method="POST" id="" class="form-inline">
+			<label for="nombre">Nombre</label>
+			<input type="text" name="nombre" value="nombre">
+			<label for="apellido">Apellido</label>
+			<input type="text" name="apellido" value="apellido">
+		</form>
+	</div>	
+	<!-- FIN Formulario en linea -->
+
+	<!-- Formulario en linea -->
+	<div class="container">
+		<form name="formulario" action="#" method="POST" id="" class="form-horizontal">
+			<div class="control-group">
+				<label class="control-label" for="nombre">Nombre</label>
+				<div class="controls">
+					<input type="text" id="nombre">
+				</div>
+			</div>
+			<div class="control-group">
+				<label class="control-label" for="apellido">Apellido</label>
+				<div class="controls">
+					<input type="text" id="apellido">
+				</div>
+			</div>
+		</form>
+	</div>	
+	<!-- FIN Formulario en linea -->
+
+	<!-- Formulario Controles -->
+	<div class="container">
+		<form name="formulario" action="#" method="POST" id="" class="form-horizontal">
+			<input type="text" name="nombre" value="" placeholder="nombre" autofocus>
+			<input type="password" name="password" value="" placeholder="nombre">
+			<label for="checkbox">
+				<input type="checkbox" value="">option 1
+			</label>
+			<label for="radio">
+				<input type="radio" name="opcionradio" value="option1">option 1
+			</label>
+			<label for="radio">
+				<input type="radio" name="opcionradio" value="option2">option 1
+			</label>			
+		</form>
+	</div>	
+	<!-- FIN Formulario Controles -->
+
+
+
+	<!-- Extensiones de los controles -->
+		
+		<!-- Por defecto Izquierda-->
+		<div class="container">
+			<div class="input-prepend">
+				<span class="add-on">@</span>
+				<input type="text" name="mail" value="" placeholder="mail">
+			</div>
+		</div>
+
+		<!-- Por defecto Derecha-->
+		<div class="container">
+			<div class="input-append">
+				<input type="text" id="prependedInput" name="mail" value="" placeholder="mail">	
+				<span class="add-on">@</span>
+			</div>
+		</div>
+
+		<!-- Convinado -->
+		<div class="container">
+			<div class="input-prepend input-append">
+				<span class="add-on">$</span>
+				<input type="text" id="prependedInput" name="mail" value="" placeholder="mail">	
+				<span class="add-on">@</span>
+			</div>
+		</div>
+
+		<!-- Posponer con botón -->
+		<div class="container">
+			<div class="input-append">
+				<input type="text" name="" value="" placeholder="">
+				<input type="button" class="btn" value="Ir">
+			</div>
+		</div>
+
+	<!-- FIN Extensiones de los controles -->
+
+	<!-- Tamaño de los controles-->
+		<input type="text" class="input-small">
+		<input type="text" class="input-medium">
+		<input type="text" class="input-large">
+		<input type="text" class="input-xlarge">
+		<input type="text" class="input-xxlarge">
+	<!-- FIN Tamaño de los controles-->
+
+
+
+	<!-- Form con grilla-->
+	<div class="container">
+		<div class="row">
+			<div class="span3">
+				<input type="text" class="span3" name="" value="" placeholder="">
+			</div>
+			<div class="span9">
+				<input type="text" class="span9" name="" value="" placeholder="">
+			</div>
+		</div>
+	</div>
+	<!-- FIN Form con grilla-->
+
+
+	<!-- Imágenes -->
+	<div class="container">
+		<img src="img/bootstrap.jpg" height="225" width="225" class="img-rounded" alt="">
+		<img src="img/bootstrap.jpg" height="225" width="225" class="img-circle" alt="">
+		<img src="img/bootstrap.jpg" height="225" width="225" class="img-polaroid" alt="">
+	</div>
+	<!-- FIN Imágenes -->
+
+
+<h2>Components</h2>
+
+
+	<!-- Grupos de botones -->
+	<div class="container">
+		<div class="btn-group">
+			<a class="btn" href="#">Botón1</a>
+			<a class="btn" href="#">Botón2</a>
+			<a class="btn" href="#">Botón3</a>
+		</div>
+	</div>
+	<!-- FIN Grupos de botones -->
+
+	<!-- Multiples botones en grupos -->
+	<div class="container">
+		<div class="btn-toolbar">
+			<div class="btn-group">
+				<a class="btn" href="#">Botón1</a>
+				<a class="btn" href="#">Botón2</a>
+				<a class="btn" href="#">Botón3</a>
+			</div>
+			<div class="btn-group">
+				<a class="btn" href="#">Botón1</a>
+				<a class="btn" href="#">Botón2</a>
+				<a class="btn" href="#">Botón3</a>
+			</div>
+		</div>		
+	</div>
+	<!-- FIN Multiples botones en grupos -->
+
+	<!-- Grupo de botones Vertical-->
+	<div class="container">
+		<div class="btn-toolbar">
+			<div class="btn-group btn-group-vertical">
+				<a class="btn" href="#">Botón1</a>
+				<a class="btn" href="#">Botón2</a>
+				<a class="btn" href="#">Botón3</a>
+			</div>
+		</div>		
+		<div class="btn-toolbar">
+			<div class="btn-group btn-group-vertical">
+				<a class="btn" href="#">Botón1</a>
+				<a class="btn" href="#">Botón2</a>
+				<a class="btn" href="#">Botón3</a>
+			</div>
+		</div>		
+	</div>
+	<!-- FIN Grupo de botones Vertical-->
+
+
+	<!-- Botones con menús desplegables-->
+	<div class="container">
+		<div class="btn-group">
+			<a class="btn dropdown-toogle" data-toogle="dropdown" href="#">
+				Menú
+				<span class="caret"></span><!-- Icono de la flecha hacia abajo -->
+			</a>
+			<ul class="dropdown-menu">
+			    <li><a href="#">menú1</a></li>
+			    <li><a href="#">menú2</a></li>
+			    <li><a href="#">menú3</a></li>
+			    <li><a href="#">menú4</a></li>
+			</ul>
+		</div>
+	</div>
+
+	
+	<script type="text/javascript">		
+		$(".dropdown-toogle").dropdown();
+	</script>
+	<!-- FIN Botones con menús desplegables-->
+
+
+<!-- Botones con menús desplegables con separación-->
+	<div class="container">
+		<div class="btn-group">
+			<input type="button" class="btn" value="Menú">
+			<a class="btn dropdown-toogle" data-toogle="dropdown"><span class="caret"></span></a>
+			
+			
+			<ul class="dropdown-menu">
+			    <li><a href="#">menú1</a></li>
+			    <li><a href="#">menú2</a></li>
+			    <li><a href="#">menú3</a></li>
+			    <li><a href="#">menú4</a></li>
+			</ul>
+		</div>
+	</div>
+
+	
+	<!-- <script type="text/javascript">		
+		$(".dropdown-toogle").dropdown();
+	</script> -->
+	<!-- FIN Botones con menús desplegables con separación-->
+
+
+<h3>Navegación</h3>
+
+<!-- 
+class:
+
+nav-tabs
+nav-pills
+nav-stacked
+nav-list -> (nav-header, divider)
+nav-tabs -> nav-content -> nav-pane
+navbar
+navbar-inner
+nav
+navbar-fixed-top
+-->
+
+<h5>Tabs</h5>
+
+	<!-- TAB (pestañas) -->
+	<div class="container">
+		<ul class="nav nav-tabs">
+		    <li class="active"><a href="#">Menú 1</a></li>
+		    <li><a href="#">Menú 2</a></li>
+		    <li><a href="#">Menú 3</a></li>
+		    <li><a href="#">Menú 4</a></li>
+		</ul>
+	</div>
+	<!-- FIN TAB (pestañas)-->
+
+<h5>Pills</h5>
+
+	<!-- Pills (pestañas) -->
+	<div class="container">
+		<ul class="nav nav-pills">
+		    <li class="active"><a href="#">Menú 1</a></li>
+		    <li><a href="#">Menú 2</a></li>
+		    <li><a href="#">Menú 3</a></li>
+		    <li><a href="#">Menú 4</a></li>
+		</ul>
+	</div>
+	<!-- FIN Pills (pestañas) -->
+	
+
+<h5>Stackablel (apilables)</h5>
+
+	<!-- Apilables (pestañas) -->
+	<div class="container">
+		<ul class="nav nav-tabs nav-stacked">
+		    <li class="active"><a href="#">Menú 1</a></li>
+		    <li><a href="#">Menú 2</a></li>
+		    <li><a href="#">Menú 3</a></li>
+		    <li><a href="#">Menú 4</a></li>
+		</ul>
+	</div>
+	<!-- FIN Apilables (pestañas) -->
+
+<h5>Desplegables</h5>
+
+	<!-- Desplegables (pestañas) -->
+	<div class="container">
+		<ul class="nav nav-tabs">
+			<li class="dropdown active">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					Menú
+					<b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+					<li class="active"><a href="#">Menú 1</a></li>
+				    <li><a href="#">Menú 2</a></li>
+				    <li><a href="#">Menú 3</a></li>
+				    <li><a href="#">Menú 4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Menú 2</a></li>
+		    <li><a href="#">Menú 3</a></li>
+		    <li><a href="#">Menú 4</a></li>		    
+		</ul>
+	</div>
+
+	<!-- <script type="text/javascript">		
+		$(".dropdown-toogle").dropdown();
+	</script> -->
+
+	<!-- FIN Desplegables (pestañas) -->
+
+<h5>Nav apiladas</h5>
+
+	<!-- Apiladas -->
+	<div class="container">
+		<ul class="nav nav-list">
+		    <li class="nav-header"><a href="#">Menú 1 Encabezado</a></li>
+		    <li class="active"><a href="#">Menú 2</a></li>
+		    <li><a href="#">Menú 3</a></li>
+		    <li class="divider"></li>
+		    <li class=""><a href="#">Menú 4</a></li>
+		    <li><a href="#">Menú 5</a></li>
+		</ul>
+	</div>
+	<!-- FIN Apiladas -->
+
+
+<h5>Tabbable Nav</h5>
+
+	<!-- Superior (Por defecto) -->
+	<div class="container">
+		<div class="tabbable"> <!-- Derecha: tabs-right / Izquierda: tabs-left / Abajo: tabs-below -->
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#1" data-toggle="tab">Tab 1</a></li>
+				<li><a href="#2" data-toggle="tab">Tab 2</a></li>
+				<li><a href="#3" data-toggle="tab">Tab 3</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active fade in" id="1"><!-- 'fade in' es un efecto visual-->
+					<p>Contenido del tab 1</p>
+				</div>
+				<div class="tab-pane fade" id="2">
+					<p>Contenido del tab 2</p>
+				</div>
+				<div class="tab-pane fade" id="3">
+					<p>Contenido del tab 3</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FIN Superior (Por defecto) -->
+
+
+<h5>Barra de navegación</h5>
+
+	<!-- Por defecto -->	
+	<div class="navbar"><!-- para que el menú se quede fijo en la parte superior -> 'navbar-fixed-top' -> inferior 'navbar-fixed-bottom' -->
+		<div class="navbar-inner">
+			<div class="container">
+				<ul class="nav">
+				    <li><a href="#">Menú 1</a></li>
+				    <li class="divider-vertical"></li><!-- Divisor -->
+				    <li><a href="#">Menú 2</a></li>
+				    <li class="divider-vertical"></li><!-- Divisor -->
+				    <li><a href="#">Menú 3</a></li>
+				    <li class="divider-vertical"></li><!-- Divisor -->
+				    <li><a href="#">Menú 4</a></li>
+				    <li class="divider-vertical"></li><!-- Divisor -->
+				    <li><a href="#">Menú 5</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- FIN Por defecto -->
+
+
+<h5>Menú desplegable con divisor</h5>
+
+	<!-- Menú desplegable -->
+	<div class="navbar"><!-- para que el menú se quede fijo en la parte superior -> 'navbar-fixed-top' -> inferior 'navbar-fixed-bottom' -->
+		<div class="navbar-inner">
+			<a href="#" title="" class="brand">Marca</a> <!-- Marca o título -->
+			<ul class="nav">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						Menú desplegable
+						<b class="caret"></b><!-- caret: flechita-->
+					</a>
+					<ul class="dropdown-menu">
+					    <li><a href="#">SubMenú 1</a></li>
+					    <li><a href="#">SubMenú 2</a></li>
+					    <li><a href="#">SubMenú 3</a></li>
+					    <li><a href="#">SubMenú 4</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Menú 1</a></li>
+				<li><a href="#">Menú 2</a></li>
+				<li><a href="#">Menú 3</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- <script type="text/javascript">		
+		$(".dropdown-toogle").dropdown();
+	</script> -->
+	<!-- FIN Menú desplegable con divisor -->
+
+
+
+<h5>Breadcrumbs</h5>
+
+	<!-- Mostrar al usuario donde esta situado -->
+	<div class="container">
+		<ul class="breadcrumb">
+			<li>
+				<a href="#" title="">Home</a>
+				<span class="divider">/</span>
+			</li>
+			<li>
+				<a href="#" title="">Quien soy yo</a>
+				<span class="divider">/</span>
+			</li>
+			<li class="active">
+				Contactame
+			</li>
+		</ul>
+	</div>
+	<!-- FIN Mostrar al usuario donde esta situado -->
+
+
+
+<h5>Paginación</h5>
+
+<!--
+li class: active, disabled
+div class: pagination-centered, pagination-right
+-->
+
+	<div class="container">
+		<div class="pagination pagination-centered">
+			<ul>
+				<li><a href="#">Prev</a></li>
+				<li class="active">
+					<a href="#">1</a>
+				</li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">Next</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Paginación rapida -->
+	<ul class="pager">
+		<li>
+			<a href="#">Previous</a>
+		</li>
+		<li>
+			<a href="#">Next</a>
+		</li>
+	</ul>
+	<!-- FINPaginación rapida -->
+
+	<!-- Paginación rapida en los EXTREMOS del container -->
+	<ul class="pager">
+		<li class="previous">
+			<a href="#">&larr; Older</a>
+		</li>
+		<li class="next">
+			<a href="#">Newer &rarr;</a>
+		</li>
+	</ul>
+	<!-- FIN Paginación rapida en los EXTREMOS del container -->
+
+
+
+<h2></h2>
+
+<h5></h5>
+
+
+
+</body>
+</html>
+
